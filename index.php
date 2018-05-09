@@ -1,4 +1,3 @@
-
 <?php
 
 require_once('inc/connection.php');
@@ -8,7 +7,7 @@ require_once('inc/connection.php');
 <head>
 
 <title>log_in</title>
-<link rel="stylesheet" href="css/main.php">
+<link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
@@ -20,7 +19,7 @@ require_once('inc/connection.php');
 	 <fieldset>
 	
 	   <legend><h1>Log In</h1></legend>
-	   
+	    <p class="error">invalid user name or password</p>
          <p>
 		   <label for="">User name</label>
 		   <input type="text" name="username" id="" placeholder="email address">
